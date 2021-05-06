@@ -1,7 +1,7 @@
 #include < iostream >
 #include < list >
 using namespace std;
-//Написать функцию, добавляющую в конец списка вещественных чисел элемент, значение которого равно среднему арифметическому всех его элементов.
+//1
 
 
 void averageList(list <double>& lst)
@@ -18,7 +18,7 @@ void averageList(list <double>& lst)
     if (n != 0) lst.push_back(s / n); 
 }
 
-//Реализовать собственный класс итератора, с помощью которого можно будет проитерироваться по диапазону целых чисел в цикле for - range - based.
+//2
 
 
 template<typename T>
